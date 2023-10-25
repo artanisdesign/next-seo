@@ -388,6 +388,7 @@ export type ArticleAuthor = {
   name: string;
   url?: string;
   type?: 'Person' | 'Organization';
+  sameAs: string[] | string
 };
 
 export type Publisher = {
